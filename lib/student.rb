@@ -16,7 +16,7 @@ class Student
     create table students(
       id INTEGER PRIMARY KEY,
       name TEXT,
-      grade TEXT
+      grade INTEGER
       );
       SQL
       DB[:conn].execute(sql)
